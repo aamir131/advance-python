@@ -1,0 +1,15 @@
+from time import time,ctime,localtime
+ec = time()
+print(ec)
+et = ctime(ec)
+print(et)
+print(ctime())
+print()
+obj = localtime()
+print(obj)
+print(obj.tm_mon)
+print()
+
+print(obj.tm_hour,end=":")
+print(obj.tm_min,end=":")
+print(obj.tm_sec)

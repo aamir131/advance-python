@@ -1,0 +1,10 @@
+import cal
+print(cal.a)
+print(cal.add(10,40))
+sub = cal.sub(40,25)
+print(sub)
+mul = cal.multi(5,4)
+print(mul)
+div = cal.div(20,2)
+print(div)
+cal.name()
